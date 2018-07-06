@@ -42,7 +42,7 @@
     <url-pattern>/login</url-pattern>
   </servlet-mapping>
   <servlet>
-    <servlet-name>departsServlet</servlet-name>
+    <servlet-name>departmentsServlet</servlet-name>
     <servlet-class>org.xu.servlet.DepartmentsServlet</servlet-class>
   </servlet>
   <servlet-mapping>
@@ -194,7 +194,7 @@
     <url-pattern>/cancelmeeting</url-pattern>
   </servlet-mapping>
   <servlet>
-    <servlet-name>doCancekMeetingServlet</servlet-name>
+    <servlet-name>doCancellMeetingServlet</servlet-name>
     <servlet-class>org.xu.servlet.DoCancelMeetingServlet</servlet-class>
   </servlet>
   <servlet-mapping>
